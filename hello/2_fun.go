@@ -4,10 +4,12 @@ import (
 	"os"
 	"strconv"
 )
+import "math/rand"
 
 func main() {
 	sum := sum(os.Args[1], os.Args[2])
 	println("Sum:", sum)
+	print(rand.Int())
 }
 func sum(number1 string, number2 string) (result int) {
 	int1, _ := strconv.Atoi(number1)
