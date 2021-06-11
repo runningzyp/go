@@ -8,4 +8,5 @@ func main() {
 		"bob":  31,
 	}
 	fmt.Println(studentsAge)
+
 }

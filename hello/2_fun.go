@@ -1,13 +1,10 @@
 package main
 
 import (
-	"os"
 	"strconv"
 )
-import "math/rand"
 
-func main() {
-	sum := sum(os.Args[1], os.Args[2])
+sum := sum(os.Args[1], os.Args[2])
 	println("Sum:", sum)
 	print(rand.Int())
 }
